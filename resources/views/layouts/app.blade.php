@@ -35,6 +35,7 @@
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
+                        <a class="nav-link" href="/blog">Blog</a>
                         <!-- Authentication Links -->
                         @guest
                             @if (Route::has('login'))
